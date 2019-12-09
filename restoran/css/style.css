@@ -1,0 +1,215 @@
+body {
+  direction: rtl;
+  text-align: right;
+  background: #FBAE94;
+  font-family: IRANSans;
+}
+
+@font-face {
+  font-family: 'Linearicons-Free';
+  src: url('../fonts/Linearicons-Free.eot?w118d');
+  src: url('../fonts/Linearicons-Free.eot?#iefixw118d') format('embedded-opentype'),
+    url('../fonts/Linearicons-Free.woff2?w118d') format('woff2'),
+    url('../fonts/Linearicons-Free.woff?w118d') format('woff'),
+    url('../fonts/Linearicons-Free.ttf?w118d') format('truetype'),
+    url('../fonts/Linearicons-Free.svg?w118d#Linearicons-Free') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: bold;
+  src: url('../fonts/eot/IRANSansWeb_Bold.eot');
+  src: url('../fonts/eot/IRANSansWeb_Bold.eot?#iefix') format('embedded-opentype'),
+    /* IE6-8 */
+    url('../fonts/woff2/IRANSansWeb_Bold.woff2') format('woff2'),
+    /* FF39+,Chrome36+, Opera24+*/
+    url('../fonts/woff/IRANSansWeb_Bold.woff') format('woff'),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/ttf/IRANSansWeb_Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/eot/IRANSansWeb.eot');
+  src: url('../fonts/eot/IRANSansWeb.eot?#iefix') format('embedded-opentype'),
+    /* IE6-8 */
+    url('../fonts/woff2/IRANSansWeb.woff2') format('woff2'),
+    /* FF39+,Chrome36+, Opera24+*/
+    url('../fonts/woff/IRANSansWeb.woff') format('woff'),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/ttf/IRANSansWeb.ttf') format('truetype');
+}
+@media (min-width: 1200px){
+  .container{
+    width: 1400px;
+  }
+}
+a , a:hover{
+  text-decoration: none;
+}
+
+.list-menu{
+  background: #5D4037 ;
+  margin-right: -15px;
+  height: 969px;
+}
+.list-menu ul{
+  margin: 0px;
+  padding: 0px;
+}
+.list-menu ul li{
+  list-style: none;
+  background: #5D4037;
+  padding: 14px 5px;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  font-size: 15px;
+  font-weight: bold;
+}
+.list-menu ul li:hover{
+  background: #7C5649;
+  transition: 400ms;
+}
+.list-menu  a :hover{
+  color: #fff;
+}
+.number h3 {
+  text-align: center;
+  font-size: 19px;
+  color: #fff;
+}
+.number h4{
+  text-align: center;
+  font-size: 15px;
+  color: #fff;
+}
+.title1 h3{
+  background: #5D4037;
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  border-radius: 10px;
+}
+.menu ul{
+  margin: 0px;
+  padding: 0px;
+}
+.menu ul li{
+  list-style: none;
+  margin: 5px 0;
+  font-size: 15px;
+  font-weight: bold;
+}
+.menu ul li select,.menu ul li input{
+  margin: 0 5px;
+  background: #3E2723;
+  color: #fff;
+}
+.menu ul li img{
+  width: 55px;
+  border-radius: 21%;
+}
+.sfr{
+  text-align: center;
+}
+.sfr h3{
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+  background: #5D4037;
+  padding: 10px 16px;
+  border-radius: 26px;
+  width: 20%;
+}
+.sfr h3:hover{
+  background: #7C5649;
+  transition: 400ms;
+}
+.logo img{
+  width: 292px;
+}
+
+.Waiter h3{
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+  background: #5D4037;
+  padding: 10px 16px;
+  border-radius: 26px;
+  width: 30%;
+}
+.Waiter h3:hover{
+  background: #7C5649;
+  transition: 400ms;
+}
+.singlecntentt {
+  border-radius: 3px;
+  box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  float: right;
+  line-height: 30px;
+  width: 100%;
+  margin-bottom: 20px;
+  background: #E0E0E0;
+}
+
+.singlecntentt img {
+  margin: 20px auto;
+  display: block;
+  max-width: 100%;
+}
+
+.singlecntentt p {
+  line-height: 30px;
+}
+
+.singlecntentt h2 {
+  font-size: 18px;
+  padding: 20px 0 10px 0;
+  font-weight: bold;
+}
+.commtnsentar textarea {
+  width: 100%;
+  padding: 10px;
+  line-height: 30px;
+  border-radius: 3px;
+  border: 2px solid #10164E;
+  height: 230px;
+}
+
+.commtnsentar label {
+  display: block;
+}
+
+.commtnsentar input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  border: 2px solid #10164E;
+  margin-bottom: 12px;
+}
+
+.commtnsentar input:focus, .commtnsentar textarea:focus {
+  outline: none;
+}
+
+.commtnsentar button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  background: #10164E;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.commtnsentar button:hover {
+  background: #1A237E;
+}
